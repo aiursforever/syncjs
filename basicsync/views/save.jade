@@ -1,0 +1,13 @@
+h3= title
+form( method="post")
+    div
+        div
+            span Title :
+            input(type="text", name="title", value=title, class="editArticleField")
+        div
+            h3=url
+        div
+            span Note :
+            textarea( name="note", rows=10, class="editArticleField")
+        div#editArticleSubmit
+            input(type="submit", value="Save")
