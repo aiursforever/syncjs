@@ -1,0 +1,15 @@
+{
+  "name": "structuresync.web",
+  "description": "Structure Sync Web Server",
+  "version": "0.1.0",
+  "author": "Dayong Huang <aiursforever@gmail.com>",
+  "private": true,
+  "dependencies": {
+      "express": "2.4.6"
+    , "stylus": ">= 0.0.1"
+    , "jade": ">= 0.0.1"
+    , "mongodb": ">= 0.9.6-7"
+  },
+  "engines": { "node": "0.4.x" }
+}
+~                             
